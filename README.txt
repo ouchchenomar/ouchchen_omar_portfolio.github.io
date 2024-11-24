@@ -1,32 +1,52 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Omar Ouchchen's Portfolio
+Welcome to my personal portfolio! I am a passionate Data Scientist and Odoo Developer. This portfolio showcases my projects, including work done during my internship at Doosys and independent projects I’ve developed. The primary focus of my work includes data analysis, machine learning, and customized ERP solutions using Odoo.
 
+Table of Contents
+About Me
+Projects
+Odoo - Document and Request Management at Doosys
+EDA - Student Spending Habits Analysis
+Skills
+Contact
+About Me
+I am currently an engineering student specializing in Data Science at the École de Science de l'Information. Throughout my academic journey, I have gained skills in data analysis, machine learning, and ERP customization using Odoo.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+I have a strong passion for using data to uncover insights and building solutions to solve real-world problems. My internship at Doosys gave me the opportunity to work with Odoo ERP, where I contributed to projects like document management, OCR integration, and request handling.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+In addition to my technical expertise, I am also an advocate for continuous learning and love exploring innovative solutions.
 
-(* = not included)
+Projects
+Odoo Project - Document and Request Management at Doosys
+This project is part of my internship at Doosys. During my time there, I developed and optimized Odoo-based applications for managing customer requests and documents. The project consists of two main parts:
 
-AJ
-aj@lkn.io | @ajlkn
+Gestion de courrier (Request Management): I created customizable services for managing various types of customer requests and developed a system for clients to submit and track their requests through the company website.
 
+Gestion et archivage de documents bancaires (Document Archiving): This part of the project involved integrating OCR functionality for document archiving and improving the user interface for a more efficient and user-friendly experience.
 
-Credits:
+View Odoo Project Repository
 
-	Demo Images:
-		Unsplash (unsplash.com)
+EDA - Student Spending Habits Analysis
+This project was developed as part of my coursework. It aims to analyze student spending patterns using an open-source dataset from Kaggle. Through extensive data exploration, the project uncovers trends, relationships, and insights into how students allocate their finances. The analysis includes factors such as:
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Academic year
+Demographics
+Location
+The insights from this analysis help to better understand student behaviors and spending priorities.
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+View EDA Project Repository
+
+Skills
+Programming Languages: Python, SQL, JavaScript
+Data Science: Data Analysis, Data Visualization, Machine Learning
+Libraries/Tools: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly
+Web Development: HTML, CSS, JavaScript
+Odoo Development: Odoo ERP, Python, PostgreSQL
+Version Control: Git, GitHub
+Database Management: MySQL, PostgreSQL
+Contact
+Feel free to reach out to me via:
+
+Email: omar.ouchchen@example.com
+LinkedIn: Omar Ouchchen LinkedIn
+GitHub: Omar Ouchchen GitHub
+Thank you for visiting my portfolio. I look forward to connecting with you!
