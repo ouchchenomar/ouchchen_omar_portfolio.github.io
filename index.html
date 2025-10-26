@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Portfolio de Omar Ouchchen - Data Engineer, AI & BI Developer, Data Scientist" />
+    <meta name="keywords" content="Data Engineer, AI Developer, BI Developer, Data Scientist, Portfolio" />
+    <meta name="author" content="Omar Ouchchen" />
+    <title>Omar Ouchchen | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Applique un effet de luminosité à l'image */
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            filter: brightness(1.2); /* Augmente la luminosité à 120% */
+            transition: filter 0.3s ease; /* Transition douce pour l'effet */
+        }
+
+        /* Effet lors du survol de l'image pour plus de clarté */
+        .profile-photo:hover {
+            filter: brightness(1.5); /* Augmente encore plus la luminosité au survol */
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <a class="skip-link" href="#main">Skip to content</a>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <canvas class="particles-canvas" id="heroParticles" aria-hidden="true"></canvas>
+            <div class="nav-inner container">
+                <div class="logo">Omar Ouchchen</div>
+                <div style="display:flex;align-items:center;gap:12px">
+                    <div class="nav-links" role="navigation" aria-label="Primary navigation">
+                        <a href="index.html">Accueil</a>
+                        <a href="#about">À propos</a>
+                        <a href="#projects">Projets</a>
+                        <a href="#skills">Compétences</a>
+                        <a href="#certifications">Certifications</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <a href="assets/CV/Omar_Ouchchen_CV.pdf" class="cv-button" aria-label="Télécharger CV">📄 Télécharger CV</a>
+                    <button class="nav-toggle" id="navToggleHeader" aria-controls="primary-nav" aria-expanded="false" aria-label="Ouvrir le menu">☰</button>
+                </div>
+            </div>
+
+            <div class="hero-inner container">
+                <div class="hero-head">
+                    <div>
+                        <h1 class="reveal show">Salut, je suis Omar Ouchchen 👋</h1>
+                        <p class="reveal show">Data Engineer | AI &amp; BI Developer | Data Scientist</p>
+                        <div class="buttons reveal show">
+                            <a href="assets/CV/Omar_Ouchchen_CV.pdf" class="btn btn-primary" target="_blank">📄 Télécharger CV</a>
+                            <a href="#projects" class="btn btn-outline" id="viewProjectsBtn">💼 Voir mes projets</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Header removed (duplicate nav bar deleted) -->
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- About Me Section -->
+            <section class="section" id="about">
+                <div class="container grid">
+                    <div style="max-width:260px">
+                        <img src="images/photo.jpg" alt="Omar Ouchchen" class="profile-photo" style="width:220px;height:220px;object-fit:cover;border-radius:50%;box-shadow:var(--shadow-sm);">
+                    </div>
+                    <div class="card reveal">
+                        <h2>À propos</h2>
+                        <p>Étudiant ingénieur à l'ESI Rabat, passionné par la Data Science, le Data Engineering et la BI. Disponible dès février 2026 pour un stage de fin d'études.</p>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Projects -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2>Projets Sélectionnés</h2>
+                <div class="grid reveal">
+                    <div class="card project-card">
+                        <h3>💬 Tamwilcom Assistant</h3>
+                        <p>Chatbot intelligent basé sur RAG pour recommander des produits financiers.</p>
+                        <p><strong>Stack:</strong> Python, FastAPI, Streamlit, FAISS, MySQL</p>
+                        <a href="https://github.com/ouchchenomar/RAG_sys" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+
+                    <div class="card project-card">
+                        <h3>📚 RAG System</h3>
+                        <p>Pipeline de génération augmentée par récupération pour la recherche contextuelle.</p>
+                        <a href="https://github.com/ouchchenomar/RAG_sys" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+
+                    <div class="card project-card">
+                        <h3>🌾 Traçabilité Agricole du Maroc</h3>
+                        <p>Plateforme nationale intégrant la Blockchain pour garantir la transparence.</p>
+                        <a href="https://github.com/ouchchenomar/tracabilite_agricol" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+
+                    <div class="card project-card">
+                        <h3>📊 Dashboard BI – Suivi des ventes</h3>
+                        <p>Tableau de bord Power BI pour l’analyse commerciale et le suivi des KPIs.</p>
+                        <a href="https://github.com/ouchchenomar/PowerBI_Suivi_Ventes" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+
+                    <div class="card project-card">
+                        <h3>🏠 Prédiction des prix immobiliers</h3>
+                        <p>Application ML (Random Forest) pour estimer les prix immobiliers via Streamlit.</p>
+                        <a href="https://github.com/ouchchenomar/ML_housse_prediction" target="_blank" class="btn">Voir sur GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skills reveal">
+                    <div class="skill">
+                        <div class="label">Langages — Python, SQL, Java, JS, R</div>
+                        <div class="bar"><span style="width:95%"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="label">Data & IA — Machine Learning, NLP, ETL</div>
+                        <div class="bar"><span style="width:88%"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="label">BI — Power BI, Tableau</div>
+                        <div class="bar"><span style="width:80%"></span></div>
+                    </div>
+                    <div class="skill">
+                        <div class="label">Cloud / DevOps — Docker, Google Cloud, Oracle Cloud</div>
+                        <div class="bar"><span style="width:72%"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section" id="certifications">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="grid--3 reveal">
+
+                    <div class="certification-card">
+                        <img src="images/cert_google.png" alt="Google" />
+                        <div>
+                            <h4>Google Data Analytics</h4>
+                            <a href="#" class="certificate-link" target="_blank" rel="noopener">Voir le certificat</a>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <img src="images/cert_ibm.png" alt="IBM" />
+                        <div>
+                            <h4>Python for Data Science — IBM</h4>
+                            <a href="#" class="certificate-link" target="_blank" rel="noopener">Voir le certificat</a>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <img src="images/cert_oracle.png" alt="Oracle Cloud Infrastructure" />
+                        <div>
+                            <h4>Oracle Cloud Infrastructure 2025 — Certified Data Science Professional</h4>
+                            <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=8544263AC2F0631BA3B6B3C173EE345E16798874CAE05B41E6C91C6DB0C46D21" target="_blank">Voir le certificat</a>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <img src="images/cert_stanford.png" alt="Stanford" />
+                        <div>
+                            <h4>Machine Learning — Stanford</h4>
+                            <a href="https://coursera.org/share/<ton-code>" target="_blank">Voir le certificat</a>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <img src="images/cert_google_agile.png" alt="Google Agile" />
+                        <div>
+                            <h4>Agile Project Management — Google</h4>
+                            <a href="https://coursera.org/share/<ton-code>" target="_blank">Voir le certificat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="card reveal">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-row">
+                            <input type="text" id="name" class="form-input" placeholder="Nom" required>
+                            <input type="email" id="email" class="form-input" placeholder="Email" required>
+                        </div>
+                        <textarea id="message" rows="6" placeholder="Message" required></textarea>
+                        <div style="display:flex;align-items:center;gap:12px">
+                            <button type="submit" class="btn-submit">Envoyer</button>
+                            <div style="margin-left:auto;display:flex;gap:8px;align-items:center">
+                                <a href="https://github.com/ouchchenomar" aria-label="Visiter mon profil GitHub" target="_blank" rel="noopener">GitHub</a>
+                                <a href="https://www.linkedin.com/in/omar-ouchchen-11b579221/" aria-label="Voir mon profil LinkedIn" target="_blank" rel="noopener">LinkedIn</a>
+                                <a href="mailto:ouchcheno@gmail.com" aria-label="M'envoyer un email">Email</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            © 2025 Omar Ouchchen — Made with ❤️ using HTML, CSS & JavaScript.
+            <div style="margin-top:8px">Follow: <a href="https://github.com/ouchchenomar" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/omar-ouchchen-11b579221/" target="_blank">LinkedIn</a></div>
+        </footer>
+
+        <div class="back-to-top" id="backToTop" title="Retour en haut">↑</div>
+
+        </div>
+
+    <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/site.js"></script>
+
+    </body>
+</html>
